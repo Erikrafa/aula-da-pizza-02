@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    
+}
+@font-face {
+    font-family:fonte_pizza;
+    src: url(../font/font.ttf);
+}
+header{ 
+    height: 500px;
+    background-image: url(../img/pizzaimg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;/*ajustar imagem backgroud*/
+    background-position: center;/*ajustar imagem backgroud*/
+}
+nav ul{
+    height: 120px;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    
+}
+li{
+    font-family: fonte_pizza;
+    font-size: 30px;
+}
+h1{
+    
+    font-family:fonte_pizza;
+    text-align: center;
+    font-size: 60px;
+}
+section{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    width: 20%;
+    height: 400px;
+    border: 1px solid white;
+    
+    
+}
+#img-card{
+
+    height: 320px;
+}
+#texto-card{ 
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family:fonte_pizza;
+
+}
+h3{
+    list-style: none;
+}
